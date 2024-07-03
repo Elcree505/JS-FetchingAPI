@@ -1,5 +1,6 @@
 // Notes: Use the test Runner at the bottom to run the code
 
+//@ts-check
 /**
  * Homework 4 // Making a single GET Request
  * Fetches products from the dummyjson API and displays them in a table.
@@ -52,6 +53,7 @@ function fetchProducts() {
 
 /**
  * Homework 5 // Making multiple requests(Display the data until all requests proceed)
+ *
  * Makes delayed HTTP GET requests to fetch product details from an API. It fetches multiple
  * products based on their IDs with staggered delays and then displays them in an HTML table.
  * The function ensures that no data is displayed until all requests have been processed.
